@@ -3,6 +3,7 @@ import UserContext from '../context/User/UserContext';
 
 const Profile = () => {
 
+    // Al depender del estado, podemos usar sus estados iniciales con sus metodos y variables
     const {selectedUser} = useContext(UserContext)
 
     return (

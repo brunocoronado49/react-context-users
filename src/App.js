@@ -1,7 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Importamos los components del perfil y la lista de usuarios
 import Profile from './components/Profile';
 import UsersList from './components/UsersList';
+
+// Importamos el estado del que van a depender los componentes anteriores
 import UserState from './context/User/UserState';
 
 function App() {
